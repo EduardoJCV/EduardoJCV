@@ -1,0 +1,35 @@
+.pagination {
+    margin-top: 25px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.pagination li {
+    padding: 5px;
+    min-width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+    margin: 0 10px;
+    cursor: pointer;
+}
+.pagination .selected {
+    background: white !important;
+    color: #00bfa5 !important;
+}
+.pagination .next {
+    width: 110px;
+}
+
+.pagination .previous {
+    width: 110px;
+}
+
+.line-clamp-span {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
