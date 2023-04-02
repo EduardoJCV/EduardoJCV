@@ -48,7 +48,6 @@ const Portfolio = ({language}) => {
         navigation
         pagination={{ clickable: true }}>
         {projects.map((project, index) => {
-          console.log(project)
           return (
             <SwiperSlide key={`project;${index}`} className='testimonial'>
               <Project img={project.img} title={project.name[language]} description={project.description[language]} link={project.link} />
