@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react'
 import './footer.css'
 import {FaFacebookF} from 'react-icons/fa'
@@ -7,7 +8,7 @@ import {IoLogoGithub} from 'react-icons/io'
 const Footer = () => {
   return (
     <footer>
-      <a href="#" className='footer__logo'>EduardoJCV</a>
+      <a href="#" className='footer__logo'>Eduardo Villalba</a>
 
       <ul className='permalinks'>
         <li><a href="#">Home</a></li>
@@ -22,10 +23,6 @@ const Footer = () => {
         <a href="https://www.facebook.com/eduard0.villalb4/"><FaFacebookF/></a>
         <a href="https://www.instagram.com/eduard0.villalb4/"><FiInstagram/></a>
         <a href="https://github.com/EduardoJCV"><IoLogoGithub/></a>
-      </div>
-
-      <div className="footer__copyright">
-        <small>&copy; EduardoJCV. All rights reserved.</small>
       </div>
     </footer>
   )

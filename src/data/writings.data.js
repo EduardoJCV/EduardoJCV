@@ -1,0 +1,76 @@
+export const WRITINGS_DATA = [
+  {
+    img: "https://senior.ua/storage/article/content/5ad95012-24a1-4e64-84fd-a0e343897008.jpeg",
+    id: 0,
+    title: {
+      es: "Descubriendo Typescript",
+      en: "Discovering Typescript"
+    },
+    content: {
+      es: `
+        Recuerdo un día en el que vi en Facebook una publicación sobre los lenguajes más populares del 2019, y sabía que JavaScript estaría en los primeros puestos. Cierto era, pues estaba precisamente en el primer lugar. Al leer los demás, me di cuenta de que conocía acerca de todos los lenguajes de la lista, incluso había trabajado con dos o tres de ellos, excepto uno. Typescript aparecía en esa lista y era un nombre de "lenguaje" que nunca había escuchado. Eso era muy extraño, pues me consideraba alguien que se mantenía muy actualizado en el ámbito del desarrollo de software, y la verdad me llamó mucho la atención. Tanto que de inmediato comencé a hacer preguntas sobre ese puesto e investigar en los comentarios a ver si aparecía algo sobre eso. En realidad, poco descubrí de Typescript en ese post, así que recurrí al viejo y confiable buscador de Google para saciar mi hambre de conocimiento.
+        \n
+        Vaya, Typescript no era un lenguaje de programación. De hecho, era un derivado de JavaScript que te permitía escribir JavaScript de forma más organizada y con reglas un poco más estrictas, o eso era lo que yo pensaba en ese momento. Al instante lo odié, jajaja. ¿Más reglas para JavaScript? ¿Qué es esto, Java? ¿No se supone que el punto bueno de JavaScript era su flexibilidad al momento de desarrollar? De inmediato lo hice a un lado.
+        \n
+        Un tiempo después, justo en mi "mes de aprendizaje al 100%", y después de aprender PHP, me decidí a aprender al fin un framework de JavaScript, y mi elección fue nada más que Angular. Cabe decir que Angular siempre fue un framework que me daba mucho miedo debido a que era obligatorio el uso de Typescript, y todos decían que era un framework difícil. Ciertamente, su curvatura de aprendizaje es mayor que otros, pero tuve la suerte de que acababa de aprender PHP con POO y MVC, lo que me ayudó un montón a entender los conceptos básicos de Angular: los componentes (los veía como las vistas), los archivos Typescript de los componentes (los veía como el controlador de esa vista), y los services (los veía como el modelo). Lo demás fue un proceso de constancia en cuanto a su uso.
+        \n
+        Pero, ¿y Typescript? Como dije antes, Typescript era algo que me daba miedo y pereza a la vez. ¿En serio tenía que escribir el tipo de cada variable siempre? Y yo, siendo realmente perezoso, odié mucho esa idea, jajaja. Pero, una vez empezando a usarlo, la facilidad que te daba del auto completado, que carecía JavaScript Vanilla, la organización de las variables haciéndome sentir más profesional por el uso de tipado un poco más estricto, la disminución de errores en el proceso de desarrollo, la programación orientada a objetos que por fin le hacía honor a un lenguaje como JavaScript, y muchas cosas más. Simplemente terminé enamorándome de Typescript. Aunque muchas veces me salté sus reglas por el culo y terminé haciendo algunas malas prácticas simplemente para terminar una tarea más rápido.
+        \n
+        Y aunque muchas veces pasé por alto sus reglas y terminé haciendo algunas malas prácticas solo para terminar una tarea más rápido, la verdad es que no me imagino soportando más de 2 horas seguidas programando en JavaScript puro, y no solo por la falta de autocompletado (aunque en gran parte sí, jajaja). Cuando uno comienza la transición de JavaScript a TypeScript, ciertamente no tiene ganas de volver, y ver noticias como que React, Vue y otros frameworks ahora admiten el uso de TypeScript, o que el tan hablado Deno admitirá TypeScript por defecto, son cosas que solo aumentan mi aprecio por esta genial herramienta.
+        \n
+        En resumen, como dicen por ahí, no hay que tenerle miedo a TypeScript, ya que no es más que un JavaScript con superpoderes.
+      `,
+      en: `
+        I remember a day when I saw a post on Facebook about the most popular programming languages of 2019, and I knew that JavaScript would be at the top of the list. Indeed, it was precisely in the first place. As I read through the rest of the list, I realized that I knew about all of the languages on it, and had even worked with two or three of them, except for one. Typescript appeared on that list and it was a "language" name that I had never heard of before. That was very strange because I considered myself someone who stayed very up-to-date in the field of software development, and it really caught my attention. So much so that I immediately began asking questions about that position and investigating in the comments to see if anything appeared about it. In reality, I discovered little about Typescript in that post, so I turned to the old and reliable Google search engine to satisfy my hunger for knowledge.
+        \n
+        Wow, Typescript wasn't a programming language. In fact, it was a derivative of JavaScript that allowed you to write JavaScript in a more organized way with slightly stricter rules, or at least that's what I thought at the time. Instantly, I hated it, haha. More rules for JavaScript? What is this, Java? Isn't the whole point of JavaScript its flexibility when it comes to development? I immediately dismissed it.
+        \n
+        Some time later, during my "100% learning month," and after learning PHP, I finally decided to learn a JavaScript framework, and my choice was none other than Angular. It should be noted that Angular was always a framework that scared me a lot because the use of Typescript was mandatory, and everyone said it was a difficult framework. Certainly, its learning curve is higher than others, but I was lucky that I had just learned PHP with OOP and MVC, which helped me a lot in understanding the basic concepts of Angular: components (I saw them as views), Typescript files of components (I saw them as the controller of that view), and services (I saw them as the model). The rest was a process of consistency in its use.
+        \n
+        But what about Typescript? As I said before, Typescript was something that scared and annoyed me at the same time. Did I really have to write the type of every variable all the time? And me, being truly lazy, hated that idea, hahaha. But once I started using it, the ease it gave me with auto-completion, which Vanilla JavaScript lacked, the organization of variables making me feel more professional with the use of slightly stricter typing, the reduction of errors in the development process, the object-oriented programming that finally did justice to a language like JavaScript, and many other things. I simply ended up falling in love with Typescript. Although many times I skipped its rules by the wayside and ended up doing some bad practices just to finish a task faster.
+        \n
+        And even though I often overlooked its rules and ended up practicing some bad practices just to finish a task faster, the truth is that I can't imagine enduring more than 2 straight hours of pure JavaScript programming, and not just because of the lack of autocomplete (although that's a big part of it, haha). When you start transitioning from JavaScript to TypeScript, you certainly don't feel like going back, and news like React, Vue, and other frameworks now supporting the use of TypeScript, or the much-talked-about Deno defaulting to TypeScript, are things that only increase my appreciation for this amazing tool.
+        \n
+        In summary, as they say out there, you don't have to be afraid of TypeScript, as it's nothing more than a JavaScript with superpowers.
+      `
+    }
+  },
+  {
+    id: 1,
+    title: {
+      es: "Recordando a IndexedDB",
+      en: "Remembering IndexedDB"
+    },
+    img: "https://dz2cdn4.dzone.com/storage/rc-covers/3975-dzone_refcard_195.png",
+    content: {
+      es: `
+        Me he dado cuenta de que en la mayoría de los cursos de desarrollo web o frontend, cuando se llega a la sección de almacenamiento local o caché, los profesores suelen especificar que existen varias formas de almacenar datos de manera local: el localstorage, para almacenar datos persistentes; el sessionstorage, para almacenar datos temporales; y las cookies. Siempre me pregunto: ¿y qué pasa con IndexedDB?
+        \n
+        Yo aprendí IndexedDB hace varios años debido a la necesidad que tenía de almacenar datos de manera local cuando desarrollaba con Phonegap Cordova o ElectronJS. No eran proyectos muy profesionales, pero sí lo suficientemente grandes como para requerir mayor capacidad de almacenamiento de la que podía proveer el localstorage. Fue entonces cuando descubrí IndexedDB. A diferencia de los alrededor de 5MB que dispone el localstorage para almacenamiento de información, IndexedDB no tiene un límite como tal. Es prácticamente una base de datos de manera local, en el propio navegador. Para mis proyectos que mayormente utilizaban webviews, esto era algo que me venía de maravilla.
+        \n
+        Podríamos definir fácilmente IndexedDB como una API de HTML5 que nos proporciona una base de datos no relacional, indexada y basada en JSON. Sí, es muy similar a MongoDB, lo que me parece genial. He omitido la mención de SQLite, otra base de datos que puede funcionar en el navegador de manera local y que también es muy buena. Pero, a diferencia de IndexedDB, SQLite es similar a cualquier otra base de datos SQL: relacional, se representa en tablas, se evita redundancia, etc. No digo que esto sea malo, simplemente que este es un artículo sobre IndexedDB, así que nos enfocaremos en ello.
+        \n
+        Me encanta que existan variedades o múltiples opciones para que podamos elegir. Así como SQLite puede servir de mucho para aquellos que ya conocen de SQL o que ya saben SQLite, pienso que IndexedDB nos viene perfecto a las personas que estamos enamoradas de JavaScript y todo lo que implica. Ya que IndexedDB está basado en JSON, es muy fácil e intuitivo tanto crear los esquemas como manipular la información. Es casi como usar NodeJS y MongoDB, lo que hace que sea muy intuitivo y fácil de aprender. Una vez que sabes las sentencias y estructuras básicas, incluso puedes montarte una base de datos local que te puede ayudar a mantener información muy recurrente y así optimizar no solo una página web, sino también aplicaciones híbridas, tanto móviles como de escritorio. IndexedDB es muy utilizada en las PWA, pero ya hablaremos de eso en otra ocasión.
+        \n
+        En conclusión, IndexedDB es una herramienta muy útil y sorprendente que permite almacenar datos de manera local en el navegador web. Es lamentable que muchos profesores de cursos en línea no hablen de ella y no enseñen sus beneficios, lo que lleva a que muchos futuros desarrolladores desconozcan su existencia y pierdan la oportunidad de aprender y utilizar esta herramienta. En mi experiencia personal, IndexedDB me fue muy útil en mis primeros proyectos de desarrollo web, en los que aprendí muchísimo al usarla. De hecho, en aquella época hacía "Backend en el Frontend", aunque ahora me da un poco de vergüenza admitirlo. Pero debo reconocer que eso me ayudó enormemente en mi proceso de aprendizaje y en mi habilidad para desenvolverme en este entorno.
+        \n
+        Por ultimo quisiera decir que es importante que los cursos y las comunidades de desarrollo sigan actualizándose y enseñando no solo las herramientas más populares, sino también otras opciones menos conocidas pero igualmente valiosas. De esta manera, los desarrolladores pueden tener una amplia gama de opciones para elegir la mejor herramienta para cada proyecto y mejorar su eficiencia y productividad en el desarrollo de software.
+      `,
+      en: `
+        I have noticed that in most web development or frontend courses, when it comes to the section on local storage or cache, teachers tend to specify that there are several ways to store data locally: localstorage, for persistent data storage; sessionstorage, for temporary data storage; and cookies. I always wonder: what about IndexedDB?
+        \n
+        I learned IndexedDB several years ago due to the need to store data locally when developing with Phonegap Cordova or ElectronJS. They were not very professional projects, but they were big enough to require more storage capacity than localstorage could provide. That's when I discovered IndexedDB. Unlike the approximately 5MB that localstorage has for storing information, IndexedDB has no such limit. It's practically a local database, within the browser itself. For my projects that mostly used webviews, this was a great solution.
+        \n
+        We could easily define IndexedDB as an HTML5 API that provides us with a non-relational, indexed, JSON-based database. Yes, it's very similar to MongoDB, which I think is great. I have omitted the mention of SQLite, another database that can work locally in the browser and is also very good. But, unlike IndexedDB, SQLite is similar to any other SQL database: relational, represented in tables, avoids redundancy, etc. I'm not saying this is bad, just that this is an article about IndexedDB, so we'll focus on it.
+        \n
+        I love that there are varieties or multiple options for us to choose from. Just as SQLite can be very useful for those who already know SQL or SQLite, I think IndexedDB is perfect for those of us who are in love with JavaScript and everything it involves. Since IndexedDB is based on JSON, it's very easy and intuitive to both create schemas and manipulate information. It's almost like using NodeJS and MongoDB, which makes it very intuitive and easy to learn. Once you know the basic statements and structures, you can even set up a local database that can help you maintain very recurrent information and optimize not only a web page but also hybrid applications, both mobile and desktop. IndexedDB is widely used in PWAs, but we'll talk about that another time.
+        \n
+        In conclusion, IndexedDB is a very useful and amazing tool that allows storing data locally in the web browser. It's unfortunate that many online course teachers don't talk about it and don't teach its benefits, which leads to many future developers being unaware of its existence and missing the opportunity to learn and use this tool. In my personal experience, IndexedDB was very useful in my early web development projects, where I learned a lot by using it. In fact, at that time, I did "Backend in the Frontend," although now I'm a little embarrassed to admit it. But I have to acknowledge that it helped me enormously in my learning process and in my ability to work in this environment.
+        \n
+        Lastly, I would like to say that it is important for courses and development communities to continue updating and teaching not only the most popular tools, but also other lesser-known but equally valuable options. This way, developers can have a wide range of choices to choose the best tool for each project and improve their efficiency and productivity in software development.
+        \n
+        Thank's for read ;)
+      `
+    }
+  }
+]

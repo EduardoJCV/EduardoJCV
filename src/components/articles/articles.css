@@ -1,82 +1,71 @@
-.container.articles__container {
-  width: 90%;
-  min-height: 500px;
-  padding-bottom: 4rem;
+.articles__container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2.5rem;
 }
 
-.article__img {
-  width: 4rem;
-  aspect-ratio: 1/1;
-  overflow: hidden;
-  border-radius: 50%;
-  margin: 0 auto 1rem;
-  border: 0.4rem solid var(--color-primary-variant);
-}
-
-.article__img img {
-  height: 100%;
-}
-
-.testimonial {
+.articles__item {
+  display: flex;
+  flex-direction: column;
   background: var(--color-bg-variant);
-  text-align: center;
-  padding: 2rem;
+  padding: 1.2rem;
   border-radius: 2rem;
-  user-select: none;
+  border: 1px solid transparent;
+  transition: var(--transition);
+  max-height: 426px !important;
 }
 
-.article__review {
-  text-align: left;
-  color: var(--color-light);
-  font-weight: 300;
-  display: block;
-  width: 90%;
-  margin: 0.8rem auto 0;
-  font-size: 20px;
-}
-.article__review p {
-  padding-bottom: 15px;
+.articles__item:hover {
+  border-color: var(--color-primary-variant);
+  background: transparent;
+  max-height: 800px !important;
 }
 
-.module {
-  width: 100%;
-  /* margin: 0 0 1em 0; */
+.articles__item-image {
+  border-radius: 1.5rem;
   overflow: hidden;
+  max-height: 175px;
+  min-height: 175px;
+  overflow: scroll;
 }
 
-.module p {
-  margin: auto;
+.articles__item-image img {
+  max-height: 175px;
+  min-height: 175px;
+  cursor: -webkit-zoom-in;
+  cursor: zoom-in;
+}
+.articles__item-image img:hover {
+  max-height: 100% !important;
+  min-height: 175px;
+}
+.articles__item-image:hover {
+  max-height: 100% !important;
 }
 
-.line-clamp {
-  display: -webkit-box;
-  -webkit-line-clamp: 10;
-  -webkit-box-orient: vertical;
+.articles__item h3 {
+  /* margin: 1.2rem 0 2rem; */
 }
 
-.testimonial a {
-  color: #007aff;
-  cursor: pointer;
-}
-
-.swiper-pagination-clickable .swiper-pagination-bullet {
-  background: var(--color-primary);
+.articles__item-cta {
+  display: flex;
+  justify-content: end;
+  gap: 1rem;
+  margin-top: 1rem;
 }
 
 /* ================ MEDIA QUERIES (MEDIUM DEVICES) ================= */
 @media screen and (max-width: 1024px) {
-  .container.articles__container {
-    width: 60%;
+  .articles__container {
+    grid-template-columns: 1fr 1fr;
+    gap: 1.2rem;
   }
 }
 
 /* ================ MEDIA QUERIES (SMALL DEVICES) ================= */
 @media screen and (max-width: 600px) {
-  .container.articles__container {
-    width: var(--container-width-sm);
-  }
-
-  .article__review {
-    width: var(--container-width-sm);
+  .articles__container {
+    grid-template-columns: 1fr;
+    gap: 1rem;
   }
 }

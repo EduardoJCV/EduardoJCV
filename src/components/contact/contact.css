@@ -7,11 +7,20 @@
 
 .contact__options {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   gap: 1.2rem;
 }
 
+@media screen and (max-width: 600px) {
+  .contact__options {
+    display: flex;
+    flex-direction: column !important;
+    gap: 1.2rem;
+  }
+}
+
 .contact__option {
+  flex: 1;
   background: var(--color-bg-variant);
   padding: 1.2rem;
   border-radius: 1.2rem;

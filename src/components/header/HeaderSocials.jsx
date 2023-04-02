@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-no-target-blank */
 import React from 'react'
 import { FaFacebookF } from 'react-icons/fa'
 import { FiInstagram} from 'react-icons/fi'
