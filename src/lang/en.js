@@ -1,6 +1,6 @@
 export const EN = {
   header: {
-    download: 'Download CV',
+    download: 'View CV',
     hello: "Hello! I'Am",
     name: 'Eduardo Villalba',
     position: 'Web Developer',
