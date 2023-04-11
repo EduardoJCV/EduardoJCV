@@ -1,10 +1,62 @@
 export const WRITINGS_DATA = [
   {
-    img: "https://senior.ua/storage/article/content/5ad95012-24a1-4e64-84fd-a0e343897008.jpeg",
     id: 0,
     title: {
-      es: "Descubriendo Typescript",
-      en: "Discovering Typescript"
+      es: "Experiencia lanzando una PWA.",
+      en: "Experience launching a PWA."
+    },
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuBzGgSEjZk7cv0a9SY5CwxGQsDwGIE5c-JQ&usqp=CAU",
+    content: {
+      es: `
+        Para quien no esté enterado, una Progressive Web App o PWA es un estilo de aplicación que intenta simular una app Mobile en base a una aplicación web, sin embargo también cuenta con herramientas especiales para hacerla más parecida posible a una aplicación Mobile como por ejemplo: el poder instalar la aplicación en tu celular y que ésta se visualice con iconos y nombres preconfigurados, una pantalla de carga inicial, capacidad de utilizarse de modo offline y otras más.
+        \n
+        La aplicación de la que va este escrito es mi recién publicado proyecto ModoGuerra.app el cual tuvo un tiempo de desarrollo aproximado de 6 meses desde su inicio hasta su publicación oficial el 1 de abril de 2023.
+        \n
+        Y bueno, te estarás preguntando: ¿Qué pasa con las PWA? ¿Son una buena opción? ¿Vale la pena hacerlas? ¿Qué tal son recibidas por los usuarios o posibles usuarios? O incluso, ¿por qué decidí elegir este tipo de tecnología para un proyecto que claramente va enfocado a querer simular una aplicación Mobile? Empecemos por aquí; una PWA tiene varios beneficios con respecto a una aplicación de Mobile nativa, algunos de los más notables serían el costo y tiempo de desarrollo, ya que sabiendo tecnologías de desarrollo web tienes un 3 en 1; es decir, que puedes tener tanto la página web, la aplicación de Android y la aplicación de iOS (también se puede convertir en aplicación de escritorio, pero no es lo suficientemente estable en navegadores de escritorio en comparación con navegadores móviles), entonces si sabemos programar páginas web nos ahorraríamos mucho tiempo y dinero en desarrollar una aplicación completa. Esto lo hace una muy buena opción a la hora de elegir desarrollar una aplicación de forma nativa, híbrida o una PWA.
+        \n
+        Muy bonito y todo, pero ¿qué tal la reciben los usuarios? Es una pregunta completa pero muy fácil a la vez, depende de tu público objetivo y si existe una comunidad alrededor del proyecto; si la comparamos con una aplicación nativa o híbrida que se encuentra en una tienda de aplicaciones reconocida como lo es Google Play Store o la App Store de iPhone, entonces la respuesta es clara, es muuuuuy complicado que las PWA puedan competir con la reputación y accesibilidad de estas tiendas de aplicaciones, al igual que al ser una tecnología no muy popular, siempre existirá cierto temor o desconfianza hacia el estilo de aplicación (esto último suele ser común en proyectos nuevos como el mío, el cual fue mi caso de hecho, pero en proyectos de aplicaciones web que ya tienen tiempo activas no es tanto un problema), sin embargo, al contar con una comunidad base, es probable que si pueda competir contra estas tiendas de aplicaciones y mientras más construida esté esta comunidad, será mucho más fácil escalar el proyecto.
+        \n
+        Gracias a un poco de suerte y una buena estrategia de marketing (y a TikTok jaja), mi PWA tuvo un muy buen periodo de lanzamiento. Actualmente, a 11 días del lanzamiento, la aplicación logró una cantidad muy buena, a mi parecer, de alrededor de 1200 usuarios registrados. La meta entonces se convirtió en llegar a los 10k usuarios registrados, y pienso que, continuando con la estrategia de marketing y mejorando algunas cosas con ayuda del feedback de la comunidad, es muy probable que se consiga en 1 a 2 meses del lanzamiento, según mis cálculos.
+        \n
+        Otro tema a tomar en cuenta es los posibles robos de ideas que se pueden generar en el lanzamiento de una PWA que apunte a un producto innovador. Al no ser realmente una aplicación desplegada en una tienda de aplicaciones y no ser una aplicación nativa, es probable que surjan algunos oportunistas queriendo robar las ideas principales de la PWA para así crear su propia aplicación nativa (sin importarles los beneficios de multiplataforma que tiene el proyecto original), apuntando directamente a obtener el mayor número de descargas gracias a la ayuda de la tienda de aplicaciones utilizada. Puede sonar un punto muy importante y a tomar en cuenta a la hora de decidir crear una PWA como medio principal para tu producto, pero la verdad es que, mientras más trabajada esté la idea y se mantenga la calidad en tu producto, no debería ser un problema real.
+        \n
+        Uno de los mayores desafíos que enfrentan las aplicaciones web progresivas es su capacidad para ser indexadas por los motores de búsqueda. Esto se debe a que a menudo se desarrollan utilizando técnicas de carga dinámica, lo que significa que el contenido no está disponible en el momento en que los motores de búsqueda rastrean la página. Sin embargo, con las últimas actualizaciones en la tecnología de PWA, se ha vuelto cada vez más fácil asegurar que las páginas PWA sean indexadas correctamente por los motores de búsqueda. En consecuencia, las PWA pueden ofrecer una gran ventaja para el SEO al permitir que el contenido sea indexado rápidamente y mejorando la velocidad de carga de las páginas. Además, al tener una PWA que se carga rápidamente y ofrece una experiencia de usuario fluida, se puede mejorar la tasa de rebote y aumentar el tiempo de permanencia en la página, lo que también contribuye positivamente al SEO.
+        \n
+        En conclusión, creo que las PWA son una excelente opción para desarrollar un proyecto de producto. Tiene sus pros y sus contras, al igual que el desarrollo de una aplicación nativa. Supongo que sacrificarías el mercado disponible que ofrecen las tiendas de aplicaciones a cambio de la rapidez y facilidad de programar una aplicación multiplataforma. Al contrario, las aplicaciones nativas sacrifican la facilidad y rapidez del desarrollo a cambio del mercado que ofrecen las tiendas de aplicaciones.
+        \n
+        Es una decisión difícil de tomar, y en un futuro, si es posible, igualmente me gustaría crear proyectos tipo PWA a una versión nativa y viceversa. Mientras más opciones le des a los posibles usuarios para acceder a tu producto, más usuarios tendrás.
+        \n
+        Gracias por leer 🐣
+      `,
+      en: `
+        For those who are not aware, a Progressive Web App or PWA is a type of application that attempts to simulate a mobile app based on a web application. However, it also has special tools to make it as similar as possible to a mobile app, such as the ability to install the application on your phone and display it with pre-configured icons and names, an initial loading screen, the ability to be used offline, and more.
+        \n
+        The application referred to in this writing is my recently published project, ModoGuerra.app, which had an approximate development time of 6 months from its inception to its official release on April 1st, 2023.
+        \n
+        And well, you may be wondering: What about PWAs? Are they a good option? Is it worth making them? How are they received by users or potential users? Or even, why did I choose this type of technology for a project that clearly aims to simulate a mobile application? Let's start here; a PWA has several benefits compared to a native mobile application, some of the most notable being the cost and development time, since knowing web development technologies you have a 3 in 1; that is, you can have both the website, the Android app and the iOS app (it can also be converted into a desktop app, but it is not stable enough on desktop browsers compared to mobile browsers), so if we know how to program web pages, we would save a lot of time and money in developing a complete application. This makes it a very good option when choosing to develop a native, hybrid or PWA application.
+        \n
+        Very nice and all, but how do users receive it? It's a complete but very easy question at the same time, it depends on your target audience and if there is a community around the project. If we compare it with a native or hybrid application that is in a recognized app store such as Google Play Store or the iPhone App Store, then the answer is clear: it is very difficult for PWAs to compete with the reputation and accessibility of these app stores. Also, since it is not a very popular technology, there will always be some fear or distrust towards this style of application (this is often common in new projects like mine, which was actually my case, but in web application projects that have been active for a while, it is not such a problem). However, having a base community, it is likely that it can compete against these app stores and the more this community is built, the easier it will be to scale the project.
+        \n
+        Thanks to a bit of luck and a good marketing strategy (and TikTok, haha), my PWA had a very successful launch period. Currently, 11 days after launch, the application has achieved a very good, in my opinion, number of around 1200 registered users. The goal then became to reach 10k registered users, and I think that, by continuing with the marketing strategy and improving some things with the help of community feedback, it is very likely to be achieved within 1 to 2 months of launch, according to my calculations.
+        \n
+        Another issue to consider is the potential idea theft that may arise when launching a PWA that aims at an innovative product. As it is not really an application deployed in an app store and not a native application, opportunists may emerge wanting to steal the main ideas of the PWA to create their own native application (regardless of the benefits of multi-platform that the original project has), directly aiming to obtain the highest number of downloads thanks to the help of the app store used. It may sound like a very important point to consider when deciding to create a PWA as the main medium for your product, but the truth is that as long as the idea is well-developed and the quality of your product is maintained, it should not be a real problem.
+        \n
+        One of the biggest challenges faced by progressive web applications is their ability to be indexed by search engines. This is because they are often developed using dynamic loading techniques, which means that the content is not available at the time the search engines crawl the page. However, with the latest updates in PWA technology, it has become increasingly easier to ensure that PWA pages are correctly indexed by search engines. Consequently, PWAs can offer a great advantage for SEO by allowing content to be quickly indexed and improving page load speed. Additionally, by having a PWA that loads quickly and offers a seamless user experience, bounce rate can be improved and time on page can be increased, which also positively contributes to SEO.
+        \n
+        In conclusion, I believe that PWAs are an excellent option for developing a product project. They have their pros and cons, just like developing a native application. I suppose you would sacrifice the available market offered by app stores in exchange for the speed and ease of programming a cross-platform application. Conversely, native applications sacrifice ease and speed of development in exchange for the market offered by app stores.
+        \n
+        It's a difficult decision to make, and in the future, if possible, I would also like to create PWA projects alongside a native version and vice versa. The more options you give potential users to access your product, the more users you will have.
+        \n
+        Thank you for reading 🐣
+      `
+    }
+  },
+  {
+    img: "https://senior.ua/storage/article/content/5ad95012-24a1-4e64-84fd-a0e343897008.jpeg",
+    id: 1,
+    title: {
+      es: "Descubriendo Typescript.",
+      en: "Discovering Typescript."
     },
     content: {
       es: `
@@ -36,10 +88,10 @@ export const WRITINGS_DATA = [
     }
   },
   {
-    id: 1,
+    id: 2,
     title: {
-      es: "Recordando a IndexedDB",
-      en: "Remembering IndexedDB"
+      es: "Recordando a IndexedDB.",
+      en: "Remembering IndexedDB."
     },
     img: "https://dz2cdn4.dzone.com/storage/rc-covers/3975-dzone_refcard_195.png",
     content: {
